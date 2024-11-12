@@ -1,0 +1,53 @@
+.marker {
+    background-color: rgb(253, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer; 
+    pointer-events: all;
+    transition: box-shadow 0.3s ease;
+}
+.marker:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+.take {
+    position: absolute;
+    bottom: 0;
+    z-index: 1000;
+    left: 0;
+}
+
+.tag {
+    position: absolute;
+    top: -20px;
+    background-color: #ffdd57;
+    color: #1f2024;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    width: max-content;
+}
+
+.glow {
+    border: 2px solid rgb(195, 0, 255);
+    z-index: 10; 
+    animation: glow 1s infinite;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px 0px black;
+    }
+    50% {
+        box-shadow: 0 0 20px 10px black;
+    }
+    100% {
+        box-shadow: 0 0 10px 0px black;
+    }
+}
