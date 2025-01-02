@@ -27,19 +27,9 @@ Our mission thrives on the support and generosity of patrons like you. By contri
 Join us in our journey to keep the spirit of Braj alive and flourishing for generations to come.
   </div>
   <div className="team-members">
+    
     <div className="team-member">
-      <img src={adi} alt="Team member 1" />
-      <h3>Aditya verma</h3>
-      <h3>About the Developer</h3>
-      <p>
-        🏆 Debugging like a detective, deploying like a dev-oops ninja. 🥷 passionate about turning complex ideas into seamless web experiences.
-        <br/>🛠️Reach out at <a href="mailto:9905adityaverma@gmail.com?&subject=Reach | from:merobraj.org&body= Write your email here.">9905adityaverma@gmail.com</a>.
-        <br /> 👨‍💻 LinkedIn: <a href="www.linkedin.com/in/aditya-verma-2a3915289">Aditya Verma</a>  👨 <br />
-        🔧  GitHub: <a href="https://github.com/AdityaTech-Pro">AdityaTech-Pro</a> 🌍
-      </p>
-    </div>
-    <div className="team-member">
-      <img src={Gan} alt="Team member 2" />
+      <img src={Gan} alt="Team member 1" />
       <h3>Gantavya Bansal</h3>
       <h3>About the Developer</h3>
       <p>
@@ -50,7 +40,7 @@ Join us in our journey to keep the spirit of Braj alive and flourishing for gene
       </p>
     </div>
     <div className="team-member">
-      <img src={Gou} alt="Team member 3" />
+      <img src={Gou} alt="Team member 2" />
       <h3>Gourav Sharma</h3>
       <h3>About the Developer</h3>
       <p>

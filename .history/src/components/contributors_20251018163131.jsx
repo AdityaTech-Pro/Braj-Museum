@@ -28,7 +28,7 @@ Join us in our journey to keep the spirit of Braj alive and flourishing for gene
   </div>
   <div className="team-members">
     <div className="team-member">
-      <img src={adi} alt="Team member 1" />
+      <img src={Gan} alt="Team member 1" />
       <h3>Aditya verma</h3>
       <h3>About the Developer</h3>
       <p>
@@ -50,7 +50,7 @@ Join us in our journey to keep the spirit of Braj alive and flourishing for gene
       </p>
     </div>
     <div className="team-member">
-      <img src={Gou} alt="Team member 3" />
+      <img src={Gou} alt="Team member 2" />
       <h3>Gourav Sharma</h3>
       <h3>About the Developer</h3>
       <p>
